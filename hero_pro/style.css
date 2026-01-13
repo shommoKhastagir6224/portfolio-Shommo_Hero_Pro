@@ -30,6 +30,20 @@ header {
     color: aliceblue;
     cursor: pointer;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
 .logo h2 {
     font-size: 45px;
@@ -102,4 +116,34 @@ nav .menu a {
 #banner .banner-img img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top:130px;
+}
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info .infocard{
+    width: 250px;
+    gap: 20px;
+}
+.about-info .infocard p{
+    font-size: 20px;
+    line-height: 30px;
+    color:#757575;
+}
+.about-info .infocard h3{
+    font-size: 15px;
 }
