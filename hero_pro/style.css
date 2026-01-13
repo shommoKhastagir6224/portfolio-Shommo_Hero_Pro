@@ -1,20 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared style  */
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
-/* main style  */
-header{
-    background:rgba(255, 248, 243, 1);
-    padding-top: 50px ;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.btn{
+/* main style  */
+header {
+    background: rgba(255, 248, 243, 1);
+    background: url(../images/developer.png), url(../images/header_bg.png), rgba(255, 248, 243, 1);
+    background-position: 80px, bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 650px, 700px auto;
+    padding-top: 50px;
+}
+
+.btn {
     background-color: #FD6E0A;
     border: none;
     padding: 18px 35px;
@@ -22,28 +28,29 @@ header{
     font-size: 20px;
     font-weight: bold;
     color: aliceblue;
+    cursor: pointer;
 }
 
-.logo h2{
+.logo h2 {
     font-size: 45px;
     font-weight: 900;
     letter-spacing: 0.1em;
 }
 
-.logo span{
+.logo span {
     color: #FD6E0A;
 }
 
-nav{
+nav {
     max-width: 1140px;
     width: 71%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     align-items: center;
     gap: 51px;
@@ -51,9 +58,48 @@ nav .menu{
     align-items: center;
 }
 
-nav .menu a{
+nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
 }
 
+#banner {
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+
+}
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+    word-spacing: 0.5em;
+}
+
+#banner .banner-content h1 {
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-img img{
+    max-width: 585px;
+    vertical-align: middle;
+}
